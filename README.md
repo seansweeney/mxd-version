@@ -6,3 +6,10 @@ The primary function (getMXDVersion) was copied verbatim from https://gis.stacke
 **Beware:** The answer on that post that is marked as correct does not work from ArcGIS 10.4 on.  This one has been tested through 10.5.1.
 
 This has been tested in Python 2.7 and 3.5, so it should work whether or not you have ArcGIS Pro/Python 3.x Installed and messing up your Python environment.
+
+## oletools
+The script requires [oletools](https://pypi.python.org/pypi/oletools).
+
+```bash
+pip install oletools
+```
