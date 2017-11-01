@@ -1,2 +1,8 @@
 # mxd-version
-Find the ArcGIS Desktop version of MXD files.
+Find all the MXD files in a folder and print out their ArcGIS Desktop version
+ 
+The primary function (getMXDVersion) was copied verbatim from https://gis.stackexchange.com/a/142689/335.  
+ 
+**Beware:** The answer on that post that is marked as correct does not work from ArcGIS 10.4 on.  This one has been tested through 10.5.1.
+
+This has been tested in Python 2.7 and 3.5, so it should work whether or not you have ArcGIS Pro/Python 3.x Installed and messing up your Python environment.
