@@ -7,9 +7,9 @@ The primary function (getMXDVersion) was copied verbatim from https://gis.stacke
 
 This has been tested in Python 2.7 and 3.5, so it should work whether or not you have ArcGIS Pro/Python 3.x Installed and messing up your Python environment.
 
-## oletools
-The script requires [oletools](https://pypi.python.org/pypi/oletools).
+## olefile
+The script requires [olefile](https://pypi.python.org/pypi/olefile).
 
 ```bash
-pip install oletools
+pip install olefile
 ```

@@ -9,8 +9,8 @@
 # Installed and messing up your Python environment.
 #
 import os, sys
-# oletools is required: pip install oletools
-from oletools.thirdparty import olefile
+# olefile is required: pip install olefile
+from olefile import olefile
 
 def getMXDVersion(filename):
     ofile = olefile.OleFileIO(filename)
