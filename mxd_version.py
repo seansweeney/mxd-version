@@ -1,7 +1,7 @@
 # Find all the MXD files in a folder and print out their ArcGIS Desktop version
-# 
+#
 # The primary function (getMXDVersion) was stolen verbatim from https://gis.stackexchange.com/a/142689/335
-# 
+#
 # Beware: the answer on that post that is marked as correct does not work from ArcGIS 10.4 on.  This one
 # has been tested through 10.5.1.
 #
@@ -23,7 +23,7 @@ def getMXDVersion(filename):
 if len(sys.argv) == 2:
     top = sys.argv[1]
 else:
-    top = '.\\'
+    top = r'C\Users\JohnDoe\Desktop\FolderwithMxds'
 
 # Get a list of all the MXD files in the directory tree
 mxdfiles = []
