@@ -1,10 +1,14 @@
-### mxd-version
+# mxd-version
 
-## DESCRIPTION: Find all the MXD files in a folder and print out their ArcGIS Desktop version.
+### Description:
+Find all the MXD files in a folder and print out their ArcGIS Desktop version.
 
-## YOU NEED TO: Add a path on line 26 directing to the folder were your mxd('s) files are located.
+### How to:
+Add the path to the folder containing your mxd's on line 26 of the mxd_version.py file.
 
-##REFERENCES: The primary function (getMXDVersion) was copied verbatim from https://gis.stackexchange.com/a/142689/335.  
+## References:
+
+The primary function (getMXDVersion) was copied verbatim from https://gis.stackexchange.com/a/142689/335.  
 
 **Beware:** The answer on that post that is marked as correct does not work from ArcGIS 10.4 on.  This one has been tested through 10.7.1.
 
